@@ -6,6 +6,19 @@
 	<artifactId>webrocket-demo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
+	<distributionManagement>
+		<repository>
+			<id>iradoman</id>
+			<url>https://pkgs.dev.azure.com/iradoman/_packaging/iradoman/maven/v1</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</repository>
+	</distributionManagement>
+
 	<dependencies>
 		<dependency>
 			<groupId>com.andersonfonseka.wr</groupId>
@@ -21,4 +34,5 @@
 		</dependency>
 
 	</dependencies>
+
 </project>
