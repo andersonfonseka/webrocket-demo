@@ -12,7 +12,7 @@ public class DemoApplication {
 
 	public static void main(String[] args) {
 
-		WebApplication webApplication = new WebApplication("demo",
+		WebApplication webApplication = new WebApplication("/demo",
 				8080, "Demo Web App");
 
 		MessageBundle messageBundle = new MessageBundle();
